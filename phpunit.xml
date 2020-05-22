@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<phpunit 
+    backupglobals="false" 
+    backupstaticattributes="false" 
+    bootstrap="vendor/autoload.php" 
+    colors="true" 
+    converterrorstoexceptions="true" 
+    convertnoticestoexceptions="true" 
+    convertwarningstoexceptions="true" 
+    processisolation="false" 
+    stoponfailure="false" 
+    syntaxcheck="false">
+    <testsuites>
+        <testsuite name="Pangeo PHP">
+            <directory suffix=".php">./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
